@@ -13,7 +13,6 @@ module.exports = {
         "jsdoc",
         "import",
         "no-null",
-        "prefer-arrow",
         "@typescript-eslint",
         "deprecation"
     ],

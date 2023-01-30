@@ -1,6 +1,7 @@
-// import './styles/index.css';
-import { createApp } from 'vue';
-import router from './business/routes';
+import { createApp } from 'vue'
+import './style.css'
+
+import { Start } from './Start';
 
 class Boostrap {
     constructor() {
@@ -9,15 +10,14 @@ class Boostrap {
 
     private init = async () => {
         this.mount();
-    };
+    }
 
     private mount = () => {
-        const app = createApp({});
+        const app = createApp(Start);
 
         //Global Functions
-        app.use(router);
         app.mount('#app');
-    };
+    }
 }
 
 new Boostrap();

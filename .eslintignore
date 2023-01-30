@@ -11,3 +11,4 @@ postcss.config.js
 .eslintrc.js
 vue-test.setup.js
 jest.config.js
+vite.config.ts
